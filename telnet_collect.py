@@ -13,9 +13,9 @@ from PIL import Image, ImageDraw, ImageFont
 # CONFIGURATION
 # =========================
 CONFIG = {
-    "gateway_ip": "10.129.14.1",         # Entry point
-    "username": "admin",
-    "password": "n@n0x0604",
+    "gateway_ip": "192.168.0.0",         # Entry point
+    "username": "user",
+    "password": "password",
     "enable_password": None,             # If you need "enable", put it here; else keep None
     "devices_file": r"C:\telnets\devices.txt",      # File containing target IPs (one per line)
     "command": "show interface status",  # Command to run on each target
@@ -324,3 +324,4 @@ def run():
 
 if __name__ == "__main__":
     run()
+
