@@ -82,4 +82,4 @@ The text and image files are named using the format:
 - The script assumes the devices use Cisco-like login prompts. If your devices use different prompts, you may need to adjust the regular expresssions.
 
 # License
-*This script is provided under MIT License. Feel free to modify and use it as needed for your use case.
+*This script is provided under MIT License. Feel free to modify and use it as needed for your use case.*
